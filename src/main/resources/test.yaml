@@ -1,0 +1,16 @@
+aerospikeConf:
+ cache.aerospike.hosts: ["localhost"]
+ cache.aerospike.port: 3000
+ cache.aerospike.namespace: test
+ cache.aerospike.maxThreads: 100
+ cache.aerospike.timeOut: 2000
+ cache.aerospike.asyncMaxCommands: 100
+ cache.aerospike.log.enabled: false
+ cache.aerospike.ttl: 900
+
+guavaConf:
+ cache.guava.ttl: 900
+ cache.guava.maxSize: 100000
+ 
+
+
